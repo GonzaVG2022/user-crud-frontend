@@ -59,7 +59,7 @@ const UserForm = ( {getUpUser, getUpUserUpdated, getUpFieldsCleaned, selectedUse
                     />
                 </div>
                 <div>
-                <label htmlFor="email">email: </label><input
+                <label htmlFor="email">Email: </label><input
                     type="email"
                     id="email"
                     { ...register("email", {
@@ -68,7 +68,7 @@ const UserForm = ( {getUpUser, getUpUserUpdated, getUpFieldsCleaned, selectedUse
                     />
                 </div>
                 <div>
-                <label htmlFor="password">contraseña: </label><input
+                <label htmlFor="password">Contraseña: </label><input
                     type="text"
                     id="password"
                     { ...register("password", {
