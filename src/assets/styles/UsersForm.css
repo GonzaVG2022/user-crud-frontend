@@ -9,6 +9,7 @@ form {
 form div {
     margin-bottom: 10px;
     display: flex;
+    justify-content: center
 }
 
 form div label {
@@ -23,7 +24,7 @@ form div label {
 }
 
 form div input {
-    width: 200px;
+    width: 250px;
     height: 40px;
     border: 1px solid var(--bg-color);
     border-left: none;

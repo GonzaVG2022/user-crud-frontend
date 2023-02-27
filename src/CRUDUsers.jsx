@@ -95,6 +95,7 @@ function CRUDUsers()
 
     return (
         <div id="crud-users">
+            <h1>CRUD Users</h1>
 	    <UsersForm
 	        getUpUser={handleUser}
 	        getUpUserUpdated={handleUpdatedUser}
