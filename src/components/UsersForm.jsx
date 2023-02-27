@@ -69,7 +69,7 @@ const UserForm = ( {getUpUser, getUpUserUpdated, getUpFieldsCleaned, selectedUse
                 </div>
                 <div>
                 <label htmlFor="password">Contraseña: </label><input
-                    type="text"
+                    type="password"
                     id="password"
                     { ...register("password", {
                         required : true
